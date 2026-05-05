@@ -42,7 +42,7 @@ int main() {
             if (count == -1 || stack[count--] != '{') 
             valid = false;
         }
-        if (valid = false) break;
+        if (!valid) break;
     }
     
     if (valid && count != -1) {
